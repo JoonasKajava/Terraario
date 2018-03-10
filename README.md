@@ -3,5 +3,4 @@
 
 
 ### Graphics
-
-Art by Charles Gabriel and Clint Bellanger, for OpenGameArt.org (http://opengameart.org)
+Animated Rogue by Calciumtrice, usable under Creative Commons Attribution 3.0 license.
