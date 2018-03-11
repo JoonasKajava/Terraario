@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terraario", "Terraario.csproj", "{590275B7-66F9-B8A3-BE8B-515831DAAF01}"
 EndProject
 Global
