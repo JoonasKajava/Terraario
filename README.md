@@ -3,4 +3,5 @@
 
 
 ### Graphics
-Animated Rogue by Calciumtrice, usable under Creative Commons Attribution 3.0 license.
+2D Island Boy Character Sprite by craftpix.net
+https://opengameart.org/content/2d-island-boy-character-sprite
