@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour {
 
     private CharacterController c_controller;
     private SpriteRenderer s_renderer;
+    private Animator animator;
     private Vector3 moveDirection = Vector3.zero;
 
     public float Gravity = 9.8f;
@@ -14,7 +15,7 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
         c_controller = GetComponent<CharacterController>();
         s_renderer = GetComponent<SpriteRenderer>();
-
+        animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -30,6 +31,13 @@ public class PlayerController : MonoBehaviour {
         }
         if(c_controller.isGrounded)
         {
+            if(h_axis != 0)
+            {
+                animator.SetBool("Walking", true);
+            }else
+            {
+                animator.SetBool("Walking", false);
+            }
             moveDirection = new Vector3(h_axis, 0, 0);
             moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= Speed;
