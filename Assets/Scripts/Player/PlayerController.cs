@@ -83,8 +83,7 @@ public class PlayerController : MonoBehaviour
         moveDirection.y -= Gravity * Time.deltaTime;
 
         c_controller.Move(moveDirection * Time.deltaTime);
-
-        Debug.Log(c_controller.isGrounded);
+        
 
     }
 }

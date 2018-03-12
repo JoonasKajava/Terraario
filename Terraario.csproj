@@ -296,6 +296,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Game Logic\CameraController.cs" />
     <Compile Include="Assets\Scripts\Game Logic\Controller.cs" />
+    <Compile Include="Assets\Scripts\Game Logic\Terrain\MapGenerator.cs" />
+    <Compile Include="Assets\Scripts\Game Logic\Terrain\MeshGenerator.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
